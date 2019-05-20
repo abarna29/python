@@ -61,15 +61,13 @@ console.log(display(6));
 
 #PF-Assgn-29
 def calculate(distance,no_of_passengers):
-    ticket=no_of_passengers*80
-    dis=distance*7
-    if(dis>ticket):
-        return -1
+    total_fuel_rate=distance*(70/10)
+    total_ticket_price=no_of_passengers*80
+    if(total_ticket_price>total_fuel_rate):
+        profit=total_ticket_price-total_fuel_rate
+        return profit
     else:
-        return ticket-dis
-    #Remove pass and write your logic here
-
-
+        return -1
 
 #Provide different values for distance, no_of_passenger and test your program
 distance=20
