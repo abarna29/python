@@ -97,7 +97,14 @@ for i in range(n,m+1):
 	          *******
 		  
 9.Program to check whether given Integer is whether integer is power of 2 or not
-		
+a=int(input())
+if(a<=0):
+	print(a,"is not a power of 2")
+elif(a&(a-1)):
+	print(a,"is a power of 2")
+else:
+	print(a,"is not a power of 2")
+	
                   ********
 		  
 10.Program to find GCD of given numbers
