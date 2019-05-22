@@ -86,6 +86,17 @@ else:
 	           *******
 		   
 8.Program to Print the Perfect squares between two intervals
+import math
+n=int(input())
+m=int(input())
+for i in range(n,m+1):
+	root=math.sqrt(i)
+	if(int(root+0.5)**2==i):
+		print(i)
+	
+	          *******
+		  
+9.Program to check whether given Integer is whether integer is power of 2 or not
 		COUNT THE NUMBER OF FACTORS
 n=int(input())
 c=0
