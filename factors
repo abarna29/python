@@ -97,14 +97,9 @@ for i in range(n,m+1):
 	          *******
 		  
 9.Program to check whether given Integer is whether integer is power of 2 or not
-		COUNT THE NUMBER OF FACTORS
-n=int(input())
-c=0
-for i in range(1,n+1):
-	if(n%i==0):
-		c=c+1
-print(c)
-
+		
+                  ********
+		  
 10.Program to find GCD of given numbers
 def gcd(a,b):
 	if(b==0):
@@ -115,3 +110,7 @@ a=int(input())
 b=int(input())
 GCD=gcd(a,b)
 print(GCD)
+            
+	       *******
+
+11.Program to find LCM of given numbers
