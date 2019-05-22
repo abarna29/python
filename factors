@@ -71,6 +71,21 @@ for num in range(n,m+1):
 			sum=sum+i
 	if(sum==num):
 		print(num)
+		
+		    *******
+		    
+7.Program to check whether given Integer is Perfect Square or not		    
+import math
+n=int(input())
+root=math.sqrt(n)
+if(int(root+0.5)**2==n):
+	print(n,"is perfect sqare")
+else:
+	print(n,"is not perfect sqare")
+	
+	           *******
+		   
+8.Program to Print the Perfect squares between two intervals
 		COUNT THE NUMBER OF FACTORS
 n=int(input())
 c=0
