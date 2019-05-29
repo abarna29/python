@@ -178,4 +178,10 @@ def double(v):
     return v
 bb=double(b)
 for i in bb:
-    print(i,end=" ")
+    print(i,end=" ") 
+        or
+number=list(map(int,input().split()))
+print(0,end=" ")
+for i in range(1,len(number)):
+    print(number[i-1]*2,end=" ")
+      
