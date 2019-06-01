@@ -1,0 +1,10 @@
+n=int(input())
+v=int(input())
+m=list(map(int,input().split()))
+l=len(m)
+a=[]
+for i in range(l-n,l):
+    a.append(m[i])
+for i in range(0,l-n):
+    a.append(m[i])
+print(*a)
