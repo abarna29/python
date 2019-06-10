@@ -4,10 +4,10 @@ n2=int(input())
 for i in range(n1,n2+1):
     temp=i
     s=0
+    m=len(str(i)
     while(temp>0):
-       
         r=temp%10
-        s+=r**3
+        s+=r**m
         temp//=10
     if(i==s):
         print(i)
